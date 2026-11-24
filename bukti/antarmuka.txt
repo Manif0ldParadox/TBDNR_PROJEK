@@ -1,0 +1,1 @@
+LULUS UI Chrome desktop dan seluler: TC-01, TC-02, suka/batal, pencarian, genre, pemutaran dan 6 sampel, profil, CRUD dan urutan playlist. Tidak ada kesalahan JavaScript/console.

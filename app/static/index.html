@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#131216"><meta name="color-scheme" content="dark">
+  <title>Ruang Nada · Musik</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script>
+</head>
+<body data-sleeve="sunrise">
+<svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+  <symbol id="i-note" viewBox="0 0 24 24"><path d="M9 17.5V6l11-2.5v11.8M9 9l11-2.5"/><ellipse cx="6" cy="18" rx="3" ry="2.3"/><ellipse cx="17" cy="16" rx="3" ry="2.3"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7.5 9 7.5v10H15v-6H9v6H3z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.7"/><rect x="14" y="3" width="7" height="7" rx="1.7"/><rect x="3" y="14" width="7" height="7" rx="1.7"/><rect x="14" y="14" width="7" height="7" rx="1.7"/></symbol>
+  <symbol id="i-stack" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="13" rx="2"/><path d="M6 5h12M8 2h8m-4 9v5m0-5 3-.7"/><circle cx="10.8" cy="16.5" r="1.3"/></symbol>
+  <symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c.6-4.3 3.7-6 7.5-6s6.9 1.7 7.5 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.8"/><path d="m15 15 5.7 5.7"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8.8-5.7-8.8-11.5a4.8 4.8 0 0 1 8.8-2.6 4.8 4.8 0 0 1 8.8 2.6C20.8 14.3 12 20 12 20Z"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="8" ry="3.5"/><path d="M4 5.5v12c0 4.8 16 4.8 16 0v-12M4 11.5c0 4.8 16 4.8 16 0"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M7 3.9c0-.8.8-1.2 1.5-.8l13.2 8c.7.4.7 1.4 0 1.8l-13.2 8c-.7.4-1.5 0-1.5-.8z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect fill="currentColor" stroke="none" x="5" y="4" width="5" height="16" rx="1"/><rect fill="currentColor" stroke="none" x="14" y="4" width="5" height="16" rx="1"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M4 5.5q0-1.5 1.3-.7l10.5 6.5q1 .7 0 1.4L5.3 19.2Q4 20 4 18.5z"/><path d="M19 5v14" stroke-width="3"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+</defs></svg>
+<main>
+<div id="notice" role="status" hidden></div>
+<section id="katalog" class="page">
+  <div id="browseHeading" class="heading"><h1 id="browseTitle">Home</h1><label id="searchBox" class="search glass" hidden><svg><use href="#i-search"/></svg><input type="search" id="search" placeholder="Cari musik" aria-label="Cari judul, artis, atau genre" maxlength="100"></label></div>
+  <div id="homeFeed" class="home-feed" hidden>
+    <div class="home-intro">
+      <div id="homeFilters" class="home-filters" role="group" aria-label="Filter beranda"></div>
+      <div id="quickPicks" class="quick-picks" aria-label="Pilihan cepat"></div>
+    </div>
+    <section class="home-shelf" aria-labelledby="releaseTitle">
+      <div class="shelf-heading"><h2 id="releaseTitle">Rilisan pilihan</h2><a href="#search">Lihat semua</a></div>
+      <div id="homeReleases" class="release-grid"></div>
+    </section>
+    <section class="home-shelf" aria-labelledby="stationTitle">
+      <div class="shelf-heading"><div><span>Dikelompokkan dari katalog MongoDB</span><h2 id="stationTitle">Stasiun Berdasarkan Artis</h2></div><a href="#search">Lihat semua</a></div>
+      <div id="homeStations" class="station-grid"></div>
+    </section>
+  </div>
+  <section id="stationDetail" class="station-detail" aria-labelledby="stationDetailTitle" hidden>
+    <button id="stationBack" class="station-back" type="button"><svg aria-hidden="true"><use href="#i-arrow"/></svg>Kembali ke Home</button>
+    <header id="stationHero" class="station-hero station-0">
+      <div id="stationHeroArt" class="station-hero-art" aria-hidden="true"></div>
+      <div class="station-hero-copy">
+        <span>Stasiun Berdasarkan Artis</span>
+        <h1 id="stationDetailTitle"></h1>
+        <p id="stationDescription"></p>
+        <strong id="stationMeta"></strong>
+      </div>
+    </header>
+    <div class="station-toolbar">
+      <button id="stationPlay" class="station-play" type="button" aria-label="Putar stasiun"><svg aria-hidden="true"><use href="#i-play"/></svg></button>
+      <div><strong id="stationToolbarTitle"></strong><span>Urutan katalog MongoDB</span></div>
+    </div>
+    <section class="station-song-section" aria-labelledby="stationSongsTitle">
+      <div class="station-song-heading"><span>#</span><h2 id="stationSongsTitle">Daftar lagu</h2><span>Album</span><span>Durasi</span></div>
+      <div id="stationTracks" class="station-track-list"></div>
+    </section>
+  </section>
+  <div id="catalogContent">
+    <div id="albums" class="albums" aria-label="Pilihan album"></div>
+    <div class="workspace">
+      <section class="tracks glass"><div class="section-head"><h2>Lagu</h2><span class="genre-filter glass"><select id="genres" aria-label="Filter genre"><option value="">Semua genre</option></select></span></div><div id="tracks" class="list"></div>
+        <div id="searchEmpty" hidden><svg aria-hidden="true"><use href="#i-search"/></svg><p>Cari judul, artis, atau genre</p></div>
+      </section>
+      <div id="mobileRailSlot"><aside id="discovery" class="glass">
+        <div class="section-head"><h2>Rekomendasi</h2></div>
+        <div class="tabs glass" role="group" aria-label="Jenis rekomendasi"><button id="relatedTab" aria-pressed="true">Lagu terkait</button><button id="recTab" aria-pressed="false">Untukmu</button></div>
+        <div id="matches" aria-live="polite"></div>
+        <details class="trace" id="databasePanel"><summary><svg><use href="#i-db"/></svg>Jejak database<svg class="chevron"><use href="#i-arrow"/></svg></summary><ul id="trace"></ul><div id="sync" role="status">Menghubungkan…</div></details>
+      </aside></div>
+    </div>
+  </div>
+</section>
+<section id="koleksi" class="page" hidden>
+  <div class="heading"><h1>Your Library</h1>
+    <a id="profileLink" class="profile-button" href="#profil"><svg aria-hidden="true"><use href="#i-person"/></svg><span>Profil</span></a>
+  </div>
+  <div class="collections"><section class="card glass"><h2>Lagu disukai</h2><div id="favorites" class="library-liked-grid"></div></section>
+  <section class="card glass"><div class="card-title-row"><h2>Playlist kamu</h2><a class="small-btn" href="#create">Playlist baru</a></div>
+    <div id="playlists" class="playlist-library-grid"></div>
+  </section></div>
+</section>
+<section id="playlistView" class="page" hidden>
+  <div class="playlist-detail">
+    <button id="playlistBack" class="station-back" type="button"><svg aria-hidden="true"><use href="#i-arrow"/></svg>Kembali ke Your Library</button>
+    <header class="playlist-hero">
+      <div id="playlistCover" class="playlist-cover playlist-artwork" aria-hidden="true"></div>
+      <div class="playlist-hero-copy">
+        <span>PLAYLIST PRIBADI</span>
+        <h1 id="playlistDetailTitle"></h1>
+        <p id="playlistDetailMeta"></p>
+      </div>
+    </header>
+    <div class="playlist-toolbar">
+      <button id="playlistPlay" class="station-play" type="button" aria-label="Putar playlist"><svg aria-hidden="true"><use href="#i-play"/></svg></button>
+      <button id="playlistRename" class="outline" type="button">Ubah nama</button>
+      <button id="playlistDelete" class="outline danger" type="button">Hapus playlist</button>
+    </div>
+    <form id="playlistRenameForm" class="playlist-rename-form glass" hidden>
+      <label for="playlistNameInput">Nama playlist</label>
+      <div><input id="playlistNameInput" required maxlength="64"><button class="solid" type="submit">Simpan</button></div>
+    </form>
+    <section class="playlist-songs" aria-labelledby="playlistSongsTitle">
+      <div class="playlist-table-heading"><span>#</span><h2 id="playlistSongsTitle">Daftar lagu</h2><span>Album</span><span>Durasi</span><span class="sr-only">Aksi</span></div>
+      <div id="playlistDetailTracks"></div>
+    </section>
+    <section class="playlist-add glass" aria-labelledby="playlistAddTitle">
+      <div><span>Tambahkan dari katalog MongoDB</span><h2 id="playlistAddTitle">Cari lagu untuk playlist</h2></div>
+      <label class="playlist-search"><svg aria-hidden="true"><use href="#i-search"/></svg><input id="playlistSongSearch" type="search" placeholder="Cari judul, artis, album, atau genre" maxlength="100"></label>
+      <div id="playlistSuggestions" class="playlist-suggestions"></div>
+    </section>
+  </div>
+</section>
+<section id="create" class="page" hidden>
+  <div class="heading"><h1>Create</h1></div>
+  <form id="newPlaylist" class="card profile glass">
+    <label for="newName">Nama playlist</label><input id="newName" required maxlength="64" placeholder="Nama playlist baru">
+    <button class="solid" type="submit">Buat playlist</button>
+  </form>
+</section>
+<section id="profil" class="page" hidden>
+  <div class="heading"><h1>Profil</h1></div>
+  <form id="profile" class="card profile glass"><label for="displayName">Nama pendengar</label><input id="displayName" required maxlength="64"><label for="bio">Bio</label><textarea id="bio" maxlength="180" rows="3"></textarea><button class="solid">Simpan profil</button></form>
+</section>
+</main>
+<div id="desktopRailSlot"></div>
+<footer class="dock">
+<section id="player" class="player glass" aria-label="Pemutar sampel" hidden>
+  <div class="now"><div id="cover" class="art"></div><div><strong id="featureTitle"></strong><span id="featureMeta"></span></div></div>
+  <span id="time">0:00 / 0:12</span>
+  <div class="transport"><button id="prev" class="icon prev" aria-label="Lagu sebelumnya" disabled><svg><use href="#i-next"/></svg></button><button id="play" class="icon play" aria-label="Putar sampel" disabled><svg><use id="playShape" href="#i-play"/></svg></button><button id="next" class="icon" aria-label="Lagu berikutnya" disabled><svg><use href="#i-next"/></svg></button></div>
+  <div class="progress"><label for="seek" class="sr-only">Posisi pemutaran</label><input type="range" id="seek" min="0" max="12" step="0.1" value="0" disabled></div>
+  <button id="like" class="icon like" aria-label="Suka" disabled><svg><use href="#i-heart"/></svg></button>
+  <audio id="audio" preload="metadata"></audio>
+</section>
+<nav class="main-nav" aria-label="Menu utama">
+  <a href="#home"><svg aria-hidden="true"><use href="#i-home"/></svg><span>Home</span></a>
+  <a href="#search"><svg aria-hidden="true"><use href="#i-search"/></svg><span>Search</span></a>
+  <a href="#library"><svg aria-hidden="true"><use href="#i-stack"/></svg><span>Your Library</span></a>
+  <a href="#create"><svg aria-hidden="true"><use href="#i-plus"/></svg><span>Create</span></a>
+  <section id="sidebarPlaylists" class="sidebar-playlists" aria-labelledby="sidebarPlaylistsTitle" hidden>
+    <h2 id="sidebarPlaylistsTitle">Playlists</h2>
+    <div id="sidebarPlaylistList" class="sidebar-playlist-list"></div>
+  </section>
+</nav>
+</footer>
+<dialog id="confirmDelete" class="glass"><form method="dialog"><h2>Hapus playlist?</h2><p id="deleteName"></p><div class="action-row"><button value="cancel" class="outline">Batal</button><button value="delete" class="solid">Hapus</button></div></form></dialog>
+</body></html>

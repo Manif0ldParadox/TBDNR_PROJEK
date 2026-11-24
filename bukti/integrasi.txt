@@ -1,0 +1,5 @@
+LULUS TC-01: cari Time of Our Lives, temukan Give Me Everything melalui Pitbull.
+LULUS TC-02: 10 PUT suka bersamaan, 1 relasi LIKES, rekomendasi berubah setelah batal suka.
+LULUS: urutan playlist, konflik versi, ID ganda, input suka, ID lagu.
+LULUS: MongoDB menyimpan suka saat Neo4j berhenti, antrean bertahan setelah restart aplikasi.
+LULUS: Neo4j pulih, 1 LIKES terbentuk, 0 pembaruan tertunda.

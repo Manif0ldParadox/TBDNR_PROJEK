@@ -1,0 +1,786 @@
+[
+  {
+    "_id": "2bJvI42r8EF3wxjOuDav4r",
+    "title": "Time of Our Lives",
+    "artist": "Pitbull, Ne-Yo",
+    "artists": [
+      "Pitbull",
+      "Ne-Yo"
+    ],
+    "album": "Globalization",
+    "genre": "Hip-Hop",
+    "cover": "sunrise",
+    "bpm": 95,
+    "root": 55,
+    "playlist_position": 1,
+    "original_duration_ms": 229358
+  },
+  {
+    "_id": "4QNpBfC0zvjKqPJcyqBy9W",
+    "title": "Give Me Everything (feat. Nayer)",
+    "artist": "Pitbull, AFROJACK, Ne-Yo, Nayer",
+    "artists": [
+      "Pitbull",
+      "AFROJACK",
+      "Ne-Yo",
+      "Nayer"
+    ],
+    "album": "Planet Pit (Deluxe Version)",
+    "genre": "Hip-Hop",
+    "cover": "dusk",
+    "bpm": 102,
+    "root": 57,
+    "playlist_position": 2,
+    "original_duration_ms": 252306
+  },
+  {
+    "_id": "51ODNNDZm21HU7wI7cccRr",
+    "title": "Latch",
+    "artist": "Disclosure, Sam Smith",
+    "artists": [
+      "Disclosure",
+      "Sam Smith"
+    ],
+    "album": "Settle (Special Edition)",
+    "genre": "Electronic",
+    "cover": "ocean",
+    "bpm": 109,
+    "root": 60,
+    "playlist_position": 3,
+    "original_duration_ms": 255631
+  },
+  {
+    "_id": "4kLLWz7srcuLKA7Et40PQR",
+    "title": "I Gotta Feeling",
+    "artist": "Black Eyed Peas",
+    "artists": [
+      "Black Eyed Peas"
+    ],
+    "album": "THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]",
+    "genre": "Pop",
+    "cover": "neon",
+    "bpm": 116,
+    "root": 62,
+    "playlist_position": 4,
+    "original_duration_ms": 289133
+  },
+  {
+    "_id": "22skzmqfdWrjJylampe0kt",
+    "title": "Can't Hold Us (feat. Ray Dalton)",
+    "artist": "Macklemore, Ryan Lewis, Macklemore & Ryan Lewis, Ray Dalton",
+    "artists": [
+      "Macklemore",
+      "Ryan Lewis",
+      "Macklemore & Ryan Lewis",
+      "Ray Dalton"
+    ],
+    "album": "The Heist",
+    "genre": "Hip-Hop",
+    "cover": "orbit",
+    "bpm": 123,
+    "root": 64,
+    "playlist_position": 5,
+    "original_duration_ms": 258431
+  },
+  {
+    "_id": "2vlDrKpOC0eSTqTDRcbYyw",
+    "title": "This Is What You Came For",
+    "artist": "Calvin Harris, Rihanna",
+    "artists": [
+      "Calvin Harris",
+      "Rihanna"
+    ],
+    "album": "96 Months",
+    "genre": "Electronic",
+    "cover": "signal",
+    "bpm": 130,
+    "root": 65,
+    "playlist_position": 6,
+    "original_duration_ms": 221900
+  },
+  {
+    "_id": "0vbtURX4qv1l7besfwmnD8",
+    "title": "I Took A Pill In Ibiza - Seeb Remix",
+    "artist": "Mike Posner, Seeb",
+    "artists": [
+      "Mike Posner",
+      "Seeb"
+    ],
+    "album": "At Night, Alone.",
+    "genre": "Electronic",
+    "cover": "sunrise",
+    "bpm": 92,
+    "root": 67,
+    "playlist_position": 7,
+    "original_duration_ms": 197933
+  },
+  {
+    "_id": "0CAfXk7DXMnon4gLudAp7J",
+    "title": "Low (feat. T-Pain)",
+    "artist": "Flo Rida, T-Pain",
+    "artists": [
+      "Flo Rida",
+      "T-Pain"
+    ],
+    "album": "Mail on Sunday",
+    "genre": "Hip-Hop",
+    "cover": "dusk",
+    "bpm": 99,
+    "root": 69,
+    "playlist_position": 8,
+    "original_duration_ms": 231400
+  },
+  {
+    "_id": "2gam98EZKrF9XuOkU13ApN",
+    "title": "Promiscuous",
+    "artist": "Nelly Furtado, Timbaland",
+    "artists": [
+      "Nelly Furtado",
+      "Timbaland"
+    ],
+    "album": "Loose",
+    "genre": "Pop",
+    "cover": "ocean",
+    "bpm": 106,
+    "root": 55,
+    "playlist_position": 9,
+    "original_duration_ms": 242293
+  },
+  {
+    "_id": "4jbmgIyjGoXjY01XxatOx6",
+    "title": "Dark Horse",
+    "artist": "Katy Perry, Juicy J",
+    "artists": [
+      "Katy Perry",
+      "Juicy J"
+    ],
+    "album": "PRISM",
+    "genre": "Pop",
+    "cover": "neon",
+    "bpm": 113,
+    "root": 57,
+    "playlist_position": 10,
+    "original_duration_ms": 215672
+  },
+  {
+    "_id": "6cpk00i5TxCqSeqNi2HuIe",
+    "title": "One More Night",
+    "artist": "Maroon 5",
+    "artists": [
+      "Maroon 5"
+    ],
+    "album": "Overexposed Track By Track",
+    "genre": "Pop Rock",
+    "cover": "orbit",
+    "bpm": 120,
+    "root": 60,
+    "playlist_position": 11,
+    "original_duration_ms": 219546
+  },
+  {
+    "_id": "7vFoFDWqTX0mHzLfrF1Cfy",
+    "title": "Cheerleader (Felix Jaehn Remix) - Radio Edit",
+    "artist": "OMI, felix jaehn",
+    "artists": [
+      "OMI",
+      "felix jaehn"
+    ],
+    "album": "Me 4 U",
+    "genre": "Electronic",
+    "cover": "signal",
+    "bpm": 127,
+    "root": 62,
+    "playlist_position": 12,
+    "original_duration_ms": 180565
+  },
+  {
+    "_id": "2igwFfvr1OAGX9SKDCPBwO",
+    "title": "Empire State Of Mind",
+    "artist": "JAŸ-Z, Alicia Keys",
+    "artists": [
+      "JAŸ-Z",
+      "Alicia Keys"
+    ],
+    "album": "The Blueprint 3",
+    "genre": "Hip-Hop",
+    "cover": "sunrise",
+    "bpm": 89,
+    "root": 64,
+    "playlist_position": 13,
+    "original_duration_ms": 276920
+  },
+  {
+    "_id": "5rgy6ghBq1eRApCkeUdJXf",
+    "title": "We Are Young (feat. Janelle Monáe)",
+    "artist": "fun., Janelle Monáe",
+    "artists": [
+      "fun.",
+      "Janelle Monáe"
+    ],
+    "album": "Some Nights",
+    "genre": "Pop Rock",
+    "cover": "dusk",
+    "bpm": 96,
+    "root": 65,
+    "playlist_position": 14,
+    "original_duration_ms": 250626
+  },
+  {
+    "_id": "76hfruVvmfQbw0eYn1nmeC",
+    "title": "Cake By The Ocean",
+    "artist": "DNCE",
+    "artists": [
+      "DNCE"
+    ],
+    "album": "DNCE",
+    "genre": "Pop Rock",
+    "cover": "ocean",
+    "bpm": 103,
+    "root": 67,
+    "playlist_position": 15,
+    "original_duration_ms": 219146
+  },
+  {
+    "_id": "3cHyrEgdyYRjgJKSOiOtcS",
+    "title": "Timber",
+    "artist": "Pitbull, Kesha",
+    "artists": [
+      "Pitbull",
+      "Kesha"
+    ],
+    "album": "Global Warming: Meltdown (Deluxe Version)",
+    "genre": "Hip-Hop",
+    "cover": "neon",
+    "bpm": 110,
+    "root": 69,
+    "playlist_position": 16,
+    "original_duration_ms": 204134
+  },
+  {
+    "_id": "1XGmzt0PVuFgQYYnV2It7A",
+    "title": "Payphone",
+    "artist": "Maroon 5, Wiz Khalifa",
+    "artists": [
+      "Maroon 5",
+      "Wiz Khalifa"
+    ],
+    "album": "Overexposed Track By Track",
+    "genre": "Pop Rock",
+    "cover": "orbit",
+    "bpm": 117,
+    "root": 55,
+    "playlist_position": 17,
+    "original_duration_ms": 231173
+  },
+  {
+    "_id": "0qOnSQQF0yzuPWsXrQ9paz",
+    "title": "Stereo Hearts (feat. Adam Levine)",
+    "artist": "Gym Class Heroes, Adam Levine",
+    "artists": [
+      "Gym Class Heroes",
+      "Adam Levine"
+    ],
+    "album": "The Papercut Chronicles II",
+    "genre": "Hip-Hop",
+    "cover": "signal",
+    "bpm": 124,
+    "root": 57,
+    "playlist_position": 18,
+    "original_duration_ms": 210960
+  },
+  {
+    "_id": "0SiywuOBRcynK0uKGWdCnn",
+    "title": "Bad Romance",
+    "artist": "Lady Gaga",
+    "artists": [
+      "Lady Gaga"
+    ],
+    "album": "The Fame Monster (Deluxe Edition)",
+    "genre": "Pop",
+    "cover": "sunrise",
+    "bpm": 131,
+    "root": 60,
+    "playlist_position": 19,
+    "original_duration_ms": 294573
+  },
+  {
+    "_id": "2Foc5Q5nqNiosCNqttzHof",
+    "title": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+    "artist": "Daft Punk, Pharrell Williams, Nile Rodgers",
+    "artists": [
+      "Daft Punk",
+      "Pharrell Williams",
+      "Nile Rodgers"
+    ],
+    "album": "Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]",
+    "genre": "Electronic",
+    "cover": "dusk",
+    "bpm": 93,
+    "root": 62,
+    "playlist_position": 20,
+    "original_duration_ms": 247632
+  },
+  {
+    "_id": "4kbj5MwxO1bq9wjT5g9HaA",
+    "title": "Shut Up and Dance",
+    "artist": "WALK THE MOON",
+    "artists": [
+      "WALK THE MOON"
+    ],
+    "album": "TALKING IS HARD",
+    "genre": "Pop Rock",
+    "cover": "ocean",
+    "bpm": 100,
+    "root": 64,
+    "playlist_position": 21,
+    "original_duration_ms": 199080
+  },
+  {
+    "_id": "6fNhZRFEkBfgW39W3wKARJ",
+    "title": "Pompeii",
+    "artist": "Bastille",
+    "artists": [
+      "Bastille"
+    ],
+    "album": "Bad Blood",
+    "genre": "Alternative",
+    "cover": "neon",
+    "bpm": 107,
+    "root": 65,
+    "playlist_position": 22,
+    "original_duration_ms": 214147
+  },
+  {
+    "_id": "6IGA5YrFiEr5ANrMqKkR6H",
+    "title": "Good Grief",
+    "artist": "Bastille",
+    "artists": [
+      "Bastille"
+    ],
+    "album": "Wild World",
+    "genre": "Alternative",
+    "cover": "orbit",
+    "bpm": 114,
+    "root": 67,
+    "playlist_position": 23,
+    "original_duration_ms": 206493
+  },
+  {
+    "_id": "3vv9phIu6Y1vX3jcqaGz5Z",
+    "title": "Roses",
+    "artist": "The Chainsmokers, ROZES",
+    "artists": [
+      "The Chainsmokers",
+      "ROZES"
+    ],
+    "album": "Roses",
+    "genre": "Electronic",
+    "cover": "signal",
+    "bpm": 121,
+    "root": 69,
+    "playlist_position": 24,
+    "original_duration_ms": 226738
+  },
+  {
+    "_id": "2rizacJSyD9S1IQUxUxnsK",
+    "title": "All We Know (feat. Phoebe Ryan)",
+    "artist": "The Chainsmokers, Phoebe Ryan",
+    "artists": [
+      "The Chainsmokers",
+      "Phoebe Ryan"
+    ],
+    "album": "All We Know (feat. Phoebe Ryan)",
+    "genre": "Electronic",
+    "cover": "sunrise",
+    "bpm": 128,
+    "root": 55,
+    "playlist_position": 25,
+    "original_duration_ms": 194080
+  },
+  {
+    "_id": "3CRDbSIZ4r5MsZ0YwxuEkn",
+    "title": "Stressed Out",
+    "artist": "Twenty One Pilots",
+    "artists": [
+      "Twenty One Pilots"
+    ],
+    "album": "Blurryface",
+    "genre": "Alternative",
+    "cover": "dusk",
+    "bpm": 90,
+    "root": 57,
+    "playlist_position": 26,
+    "original_duration_ms": 202333
+  },
+  {
+    "_id": "7EQGXaVSyEDsCWKmUcfpLk",
+    "title": "Die Young",
+    "artist": "Kesha",
+    "artists": [
+      "Kesha"
+    ],
+    "album": "Warrior (Expanded Edition)",
+    "genre": "Pop",
+    "cover": "ocean",
+    "bpm": 97,
+    "root": 60,
+    "playlist_position": 27,
+    "original_duration_ms": 211920
+  },
+  {
+    "_id": "2P4OICZRVAQcYAV2JReRfj",
+    "title": "Waiting For Love",
+    "artist": "Avicii",
+    "artists": [
+      "Avicii"
+    ],
+    "album": "Stories",
+    "genre": "Electronic",
+    "cover": "neon",
+    "bpm": 104,
+    "root": 62,
+    "playlist_position": 28,
+    "original_duration_ms": 230613
+  },
+  {
+    "_id": "7F25roCtYi55JouckaayPC",
+    "title": "Judas",
+    "artist": "Lady Gaga",
+    "artists": [
+      "Lady Gaga"
+    ],
+    "album": "Born This Way (International Special Edition Version)",
+    "genre": "Pop",
+    "cover": "orbit",
+    "bpm": 111,
+    "root": 64,
+    "playlist_position": 29,
+    "original_duration_ms": 249066
+  },
+  {
+    "_id": "48QmG1dfvMuYLxMPt7KSRA",
+    "title": "No Lie",
+    "artist": "Sean Paul, Dua Lipa",
+    "artists": [
+      "Sean Paul",
+      "Dua Lipa"
+    ],
+    "album": "Mad Love The Prequel",
+    "genre": "Hip-Hop",
+    "cover": "signal",
+    "bpm": 118,
+    "root": 65,
+    "playlist_position": 30,
+    "original_duration_ms": 221176
+  },
+  {
+    "_id": "0lYBSQXN6rCTvUZvg9S0lU",
+    "title": "Let Me Love You",
+    "artist": "DJ Snake, Justin Bieber",
+    "artists": [
+      "DJ Snake",
+      "Justin Bieber"
+    ],
+    "album": "Encore",
+    "genre": "Electronic",
+    "cover": "sunrise",
+    "bpm": 125,
+    "root": 67,
+    "playlist_position": 31,
+    "original_duration_ms": 205946
+  },
+  {
+    "_id": "7BKLCZ1jbUBVqRi2FVlTVw",
+    "title": "Closer",
+    "artist": "The Chainsmokers, Halsey",
+    "artists": [
+      "The Chainsmokers",
+      "Halsey"
+    ],
+    "album": "Closer",
+    "genre": "Electronic",
+    "cover": "dusk",
+    "bpm": 132,
+    "root": 69,
+    "playlist_position": 32,
+    "original_duration_ms": 244960
+  },
+  {
+    "_id": "7AqISujIaWcY3h5zrOqt5v",
+    "title": "Forget You",
+    "artist": "CeeLo Green",
+    "artists": [
+      "CeeLo Green"
+    ],
+    "album": "The Lady Killer",
+    "genre": "R&B",
+    "cover": "ocean",
+    "bpm": 94,
+    "root": 55,
+    "playlist_position": 33,
+    "original_duration_ms": 222733
+  },
+  {
+    "_id": "1rUQmXEy41tXwHIKFECNTa",
+    "title": "Wide Awake",
+    "artist": "Katy Perry",
+    "artists": [
+      "Katy Perry"
+    ],
+    "album": "Teenage Dream: The Complete Confection",
+    "genre": "Pop",
+    "cover": "neon",
+    "bpm": 101,
+    "root": 57,
+    "playlist_position": 34,
+    "original_duration_ms": 220933
+  },
+  {
+    "_id": "6KHL1En9v6iNWjcs44mcmU",
+    "title": "Secret Love Song (feat. Jason Derulo)",
+    "artist": "Little Mix, Jason Derulo",
+    "artists": [
+      "Little Mix",
+      "Jason Derulo"
+    ],
+    "album": "Get Weird (Expanded Edition)",
+    "genre": "Pop",
+    "cover": "orbit",
+    "bpm": 108,
+    "root": 60,
+    "playlist_position": 35,
+    "original_duration_ms": 249810
+  },
+  {
+    "_id": "0uXWA2wQibKe9XHMHSYenF",
+    "title": "Till It Hurts",
+    "artist": "Yellow Claw, Ayden",
+    "artists": [
+      "Yellow Claw",
+      "Ayden"
+    ],
+    "album": "Till It Hurts",
+    "genre": "Electronic",
+    "cover": "signal",
+    "bpm": 115,
+    "root": 62,
+    "playlist_position": 36,
+    "original_duration_ms": 188680
+  },
+  {
+    "_id": "6qn9YLKt13AGvpq9jfO8py",
+    "title": "We Found Love",
+    "artist": "Rihanna, Calvin Harris",
+    "artists": [
+      "Rihanna",
+      "Calvin Harris"
+    ],
+    "album": "Talk That Talk",
+    "genre": "Pop",
+    "cover": "sunrise",
+    "bpm": 122,
+    "root": 64,
+    "playlist_position": 37,
+    "original_duration_ms": 215226
+  },
+  {
+    "_id": "0Hf4aIJpsN4Os2f0y0VqWl",
+    "title": "Feel This Moment (feat. Christina Aguilera)",
+    "artist": "Pitbull, Christina Aguilera",
+    "artists": [
+      "Pitbull",
+      "Christina Aguilera"
+    ],
+    "album": "Global Warming: Meltdown (Deluxe Version)",
+    "genre": "Hip-Hop",
+    "cover": "dusk",
+    "bpm": 129,
+    "root": 65,
+    "playlist_position": 38,
+    "original_duration_ms": 229500
+  },
+  {
+    "_id": "6jg5SRvdGxvJ0DzNV0UqEK",
+    "title": "Please Don't Go",
+    "artist": "Mike Posner",
+    "artists": [
+      "Mike Posner"
+    ],
+    "album": "31 Minutes to Takeoff",
+    "genre": "Electronic",
+    "cover": "ocean",
+    "bpm": 91,
+    "root": 67,
+    "playlist_position": 39,
+    "original_duration_ms": 196813
+  },
+  {
+    "_id": "3G6hD9B2ZHOsgf4WfNu7X1",
+    "title": "Team",
+    "artist": "Lorde",
+    "artists": [
+      "Lorde"
+    ],
+    "album": "Pure Heroine",
+    "genre": "Alternative",
+    "cover": "neon",
+    "bpm": 98,
+    "root": 69,
+    "playlist_position": 40,
+    "original_duration_ms": 193058
+  },
+  {
+    "_id": "6zKrj4SomgfbvsfuTAuElE",
+    "title": "Want to Want Me",
+    "artist": "Jason Derulo",
+    "artists": [
+      "Jason Derulo"
+    ],
+    "album": "Everything Is 4",
+    "genre": "R&B",
+    "cover": "orbit",
+    "bpm": 105,
+    "root": 55,
+    "playlist_position": 41,
+    "original_duration_ms": 207719
+  },
+  {
+    "_id": "5lF0pHbsJ0QqyIrLweHJPW",
+    "title": "Burn",
+    "artist": "Ellie Goulding",
+    "artists": [
+      "Ellie Goulding"
+    ],
+    "album": "Halcyon Nights",
+    "genre": "Electronic",
+    "cover": "signal",
+    "bpm": 112,
+    "root": 57,
+    "playlist_position": 42,
+    "original_duration_ms": 231213
+  },
+  {
+    "_id": "11ozIUBoXAgRTVWelDn4pL",
+    "title": "Lights",
+    "artist": "Ellie Goulding",
+    "artists": [
+      "Ellie Goulding"
+    ],
+    "album": "An Introduction To Ellie Goulding EP",
+    "genre": "Electronic",
+    "cover": "sunrise",
+    "bpm": 119,
+    "root": 60,
+    "playlist_position": 43,
+    "original_duration_ms": 244266
+  },
+  {
+    "_id": "2GjMaJ7DacMIkgoe8oMXGg",
+    "title": "Close To Me",
+    "artist": "Ellie Goulding, Diplo, Swae Lee",
+    "artists": [
+      "Ellie Goulding",
+      "Diplo",
+      "Swae Lee"
+    ],
+    "album": "Brightest Blue",
+    "genre": "Electronic",
+    "cover": "dusk",
+    "bpm": 126,
+    "root": 62,
+    "playlist_position": 44,
+    "original_duration_ms": 182626
+  },
+  {
+    "_id": "6ebkx7Q5tTxrCxKq4GYj0Y",
+    "title": "Club Can't Handle Me (feat. David Guetta)",
+    "artist": "Flo Rida, David Guetta",
+    "artists": [
+      "Flo Rida",
+      "David Guetta"
+    ],
+    "album": "Only One Flo (Part 1)",
+    "genre": "Hip-Hop",
+    "cover": "ocean",
+    "bpm": 88,
+    "root": 64,
+    "playlist_position": 45,
+    "original_duration_ms": 234560
+  },
+  {
+    "_id": "5JVbvCHX10U2pLa5DEqGav",
+    "title": "Safe and Sound",
+    "artist": "Capital Cities",
+    "artists": [
+      "Capital Cities"
+    ],
+    "album": "In A Tidal Wave of Mystery",
+    "genre": "Alternative",
+    "cover": "neon",
+    "bpm": 95,
+    "root": 65,
+    "playlist_position": 46,
+    "original_duration_ms": 192789
+  },
+  {
+    "_id": "3bC1ahPIYt1btJzSSEyyrF",
+    "title": "Whistle",
+    "artist": "Flo Rida",
+    "artists": [
+      "Flo Rida"
+    ],
+    "album": "Wild Ones",
+    "genre": "Hip-Hop",
+    "cover": "orbit",
+    "bpm": 102,
+    "root": 67,
+    "playlist_position": 47,
+    "original_duration_ms": 224653
+  },
+  {
+    "_id": "1kPpge9JDLpcj15qgrPbYX",
+    "title": "Good Time",
+    "artist": "Owl City, Carly Rae Jepsen",
+    "artists": [
+      "Owl City",
+      "Carly Rae Jepsen"
+    ],
+    "album": "The Midsummer Station",
+    "genre": "Electronic",
+    "cover": "signal",
+    "bpm": 109,
+    "root": 69,
+    "playlist_position": 48,
+    "original_duration_ms": 205933
+  },
+  {
+    "_id": "2fQxE0jVrjNMT9oJAXtSJR",
+    "title": "Domino",
+    "artist": "Jessie J",
+    "artists": [
+      "Jessie J"
+    ],
+    "album": "Who You Are (Platinum Edition)",
+    "genre": "Pop",
+    "cover": "sunrise",
+    "bpm": 116,
+    "root": 55,
+    "playlist_position": 49,
+    "original_duration_ms": 231840
+  },
+  {
+    "_id": "27tNWlhdAryQY04Gb2ZhUI",
+    "title": "Roar",
+    "artist": "Katy Perry",
+    "artists": [
+      "Katy Perry"
+    ],
+    "album": "PRISM",
+    "genre": "Pop",
+    "cover": "dusk",
+    "bpm": 123,
+    "root": 57,
+    "playlist_position": 50,
+    "original_duration_ms": 223546
+  }
+]
